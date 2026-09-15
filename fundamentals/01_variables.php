@@ -1,3 +1,4 @@
+<?php
 $name = "John Doe";
 $age = 30;
 $height = 5.9;
@@ -32,3 +33,11 @@ if($learningPHP){
     echo 'I am not Learning PHP!';
 }
 
+
+
+
+
+
+
+
+?>
