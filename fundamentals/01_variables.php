@@ -4,6 +4,7 @@ $age = 30;
 $height = 5.9;
 $learningPHP = true;
 
+echo "<pre>";
 echo "Name: " .$name. "\n";
 echo "Age: " .$age. "\n";
 echo "Height: " .$height. "\n";
@@ -12,8 +13,9 @@ if ($learningPHP){
 }else{
     echo "I am not Learning PHP!";
 }
+echo "</pre>";
 
-/*  
+echo "<pre>";
 echo "Name: $name\n";
 echo "Age: $age\n";
 echo "Height: $height\n";
@@ -22,8 +24,9 @@ if($learningPHP){
 } else {
     echo "I am not Learning PHP!";
 }
-*/
+echo "</pre>";
 
+echo "<pre>";
 echo 'Name: $name\n';
 echo 'Age: $age\n';
 echo 'Height: $height\n';
@@ -32,7 +35,7 @@ if($learningPHP){
 } else {
     echo 'I am not Learning PHP!';
 }
-
+echo "</pre>";
 
 
 
