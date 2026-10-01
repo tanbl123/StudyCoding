@@ -36,6 +36,17 @@ Established by their prior work in `github.com/tanbl123/whiteboard-1`
   convert, carrying state between parts of a page. Shows up in web work,
   not in algorithm work.
 
+## Working mode the user prefers
+
+- **Spec in English, they code, Claude verifies.** When starting a new
+  exercise, describe in plain words what the thing should hold and do, with
+  the design decisions left open as questions. No PHP in the spec — the
+  translation from English to code is the exercise. They then paste their
+  implementation for review.
+- **No test files.** The PHPUnit tests in `whiteboard-1` were a company
+  interview requirement, not their practice. Do not ask for tests or
+  suggest adding them; verify behaviour by running their code instead.
+
 ## Training constraints the user has chosen
 
 - **Prefer hand-written implementations over PHP's built-in functions.**
@@ -94,5 +105,4 @@ Keep review lists short. Three items land; eight get skimmed.
 - `php -l file.php` for a syntax check
 - PDO drivers: mysql, pgsql, **sqlite** — sqlite makes database behaviour
   demonstrable here without a server
-- No PHPUnit installed in this repo yet; the user already uses it in
-  `whiteboard-1` (`composer require --dev phpunit/phpunit`)
+- No PHPUnit here, and none wanted — see Working mode above
