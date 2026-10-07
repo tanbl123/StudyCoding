@@ -92,6 +92,16 @@ exploitable, not just that it is.
 
 Keep review lists short. Three items land; eight get skimmed.
 
+**Keep explanations simple — the user has asked for this directly.**
+
+- Show **one** way to do something, not three alternatives.
+- Prefer the readable solution over the clever one. A longer `if` that the
+  user can explain in an interview beats a compact trick they cannot.
+- Short code samples. Long demo scripts with many sections overload rather
+  than teach; one focused example is enough.
+- Skip tangents and "worth knowing" extras unless asked. Answer the question
+  that was asked, then stop.
+
 ## Reading their code without touching `main`
 
     git fetch origin main
